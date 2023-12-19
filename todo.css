@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+h2 {
+  color: white;
+}
+.mainTodo,
+.mainEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  background: #234545;
+  height: 300px;
+  border-radius: 15px;
+}
+.click,
+.edit {
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+
+  height: 25px;
+}
+.block,
+.editMain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  color: white;
+  margin-left: 170px;
+}
+
+.block input,
+.editMain input {
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+.contact {
+  width: 400px;
+  border-radius: 20px;
+  height: 600px;
+  background: #234545;
+}
+.contact::-webkit-scrollbar {
+  display: none;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.contact {
+  overflow-y: scroll;
+}
+.btnBlo {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.infoDel {
+  border: none;
+  border-radius: 7px;
+  color: blue;
+}
+.infoEdit {
+  border: none;
+  border-radius: 7px;
+  color: blue;
+}
+.nameP,
+.emailP {
+  color: white;
+  font-weight: 900;
+}
